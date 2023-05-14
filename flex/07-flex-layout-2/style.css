@@ -28,10 +28,10 @@ body {
   border-radius: 4px;
 }
 
-.main{
+body{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -41,4 +41,47 @@ body {
   font-weight: 900;
   line-height: 2em;
   padding: 0 16px;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-content{
+  display: flex;
+}
+
+.sidebar{
+  max-width: 300px;
+  flex: 2 0 25%;
+}
+
+.sidebar > ul li a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.cards{
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  height: 300px;
+  margin: 16px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar > ul li{
+  margin-bottom: 16px;
 }
