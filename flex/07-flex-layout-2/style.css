@@ -27,3 +27,18 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header{
+  width: 100%;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 2em;
+  padding: 0 16px;
+}
